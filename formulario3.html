@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormularioPago</title>
+</head>
+<body>
+    <h1>Formulario de Inscripcion</h1>
+    <form action="#">
+        <label for="curso">Curso:</label><br>
+       <select name="MetodoPago" id="MetodoPago">
+            <option value="tipo1">Debito</option>
+            <option value="tipo2">Credito</option>
+            <option value="tipo3">Transferencia</option>
+            <input type="file"><br>
+            <label for="mensajeTransferencia">En caso de transferencia ingrese su comprobante</label><br>
+            <label for="emailComprobante">Ingrese su email para enviar comprobante</label><br>
+            <input type="email"></input><br>
+            <button type="submit">Enviar</button>
+       
+        </select><br>
+       <label for="numeroTarjeta">Número de Tarjeta:</label>
+       <input type="number" id="numeroTarjeta" name="NumeroTarjeta" maxlength="16"><br>
+       <label for="fechaVencimiento">Fecha de Vencimiento:</label>
+       <input type="date" id="fechaVencimiento" name="FechaVencimiento"> </input><br>
+       <label for="cvv">CVV:</label>
+       <input type="text" id="cvv" name="CVV" minlength="3" maxlength="3"></input><br>  
+       <label for="NombreCompleto">Nombre Completo:</label>
+       <input type="text" id="NombreCompleto" name="NombreCompleto"></input><br>
+        <label for="dni">DNI</label>
+        <input type="text" minlength="8" maxlength="8"></input><br><br>
+       
+        <button type="reset">Realizar pago</button>
+    </form>
+        
+
+</body>
+</html>
