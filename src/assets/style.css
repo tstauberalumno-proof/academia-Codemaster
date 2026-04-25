@@ -1,0 +1,90 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.pipo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    margin: 0;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.faq-intro p {
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+details {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 16px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 4px 0;
+    list-style: none;
+}
+
+summary::webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: ' +';
+    float: right;
+    color: #007bff;
+}
+
+details[open] summary::after {
+    content: ' -';
+}
+
+details p {
+    margin: 10px 0 4px;
+    color: #444;
+}
+
+footer{
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
